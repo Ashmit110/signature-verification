@@ -2,11 +2,11 @@
 
 ## Introduction
 
-the siamese network has showed great success in face verification task and the auto encoders have proven to be a useful tool in unsupervised learning.so in this project we try explore a combination of these two for task of signature verification.the siamese network tries to place similar obejcts closer in the latent space and dissimilar further away this property is somewhat similar to principle on which auto encoders work they bound objects belonging to simillar class i some volume of the latent space.
+This project explores the integration of Siamese Networks and Autoencoders for the task of signature verification. Siamese Networks have demonstrated significant success in face verification tasks due to their ability to project similar objects closer together and dissimilar objects further apart in the latent space. This characteristic aligns with the principles of Autoencoders, which aim to encapsulate objects of similar classes within distinct regions of the latent space. By leveraging the strengths of both these models, we aim to enhance the performance and reliability of signature verification systems. This study seeks to develop a novel approach that combines the discriminative capabilities of Siamese Networks with the representational power of Autoencoders, offering a robust framework for distinguishing between genuine and forged signatures.
 
 ## Dataset
 
-in this project we have tested our model on CEDAR and BHsig-260 hindi.
+In this project we have tested our model on CEDAR and BHsig-260 hindi.
 
 
 ### CEDAR Dataset
